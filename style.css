@@ -13,26 +13,30 @@ main div {
     align-items: center;
 }
 
-.form div{
+.form div {
     width: 70%;
 }
 
+main div label {
+    font-size: 1rem;
+    color: black; /* Changed to black */
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
 
-
-main div input{
+main div input {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
     border-radius: 20px;
     align-items: center;
-    
     width: 100%;
     outline: none;
+    border: 1px solid navy;
 }
 
-main div button{
-
+main div button {
     border: none;
     display: flex;
     flex-direction: column;
@@ -40,12 +44,9 @@ main div button{
     padding: 1rem;
     border-radius: 20px;
     align-items: center;
-    
     width: 100%;
     outline: none;
 }
-
-
 
 main {
     display: flex;
@@ -59,10 +60,10 @@ main {
     flex-direction: column;
     gap: 1rem;
     width: 20%;
-    height: 50%;
+    height: 60%;
     padding: 1rem;
     border-radius: 10px;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     background-color: white;
 }

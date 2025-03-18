@@ -8,30 +8,26 @@
 </head>
 <body>
 
-    <main>
-
-        <div class="form">
-
-            <div >
-                <input type="text" placeholder="Ingrese la nota de matemática" id="notaMatematica">
-                <input type="text" placeholder="Ingrese la nota de lengua" id="notaLengua">
-                <input type="text" placeholder="Ingrese la nota de efsi" id="notaEFSI">
-            </div>
-            <div>
-                <button type="button" onclick="calcularPromedio()">Calcular Promedio del Alumno</button>
-                <button type="button" onclick="mostrarMayor()">Mostrar la Materia con Mayor Nota</button>
-            </div>
-            <div>
-                <p id="pResult"></p>
-            </div>
+<main>
+    <div class="form">
+        <div>
+            <label for="notaMatematica" id="labelNotaMatematica">Nota de Matemática:</label>
+            <input type="text" placeholder="Ingrese la nota de matemática" id="notaMatematica">
             
-        
+            <label for="notaLengua" id="labelNotaLengua">Nota de Lengua:</label>
+            <input type="text" placeholder="Ingrese la nota de lengua" id="notaLengua">
+            
+            <label for="notaEFSI" id="labelNotaEFSI">Nota de EFSI:</label>
+            <input type="text" placeholder="Ingrese la nota de efsi" id="notaEFSI">
         </div>
-
-       
-
-    </main>
-
-    <script src="script.js"></script>
+        <div>
+            <button type="button" onclick="calcularPromedio()">Calcular Promedio del Alumno</button>
+        </div>
+        <div>
+            <p id="pResult"></p>
+        </div>
+    </div>
+</main>
+<script src="script.js"></script>
 </body>
 </html>
